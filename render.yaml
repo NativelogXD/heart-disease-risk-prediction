@@ -1,0 +1,13 @@
+# Render Blueprint configuration for Docker-based FastAPI inference service
+services:
+  - type: web
+    name: heart-disease-risk-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: MODEL_PATH
+        value: /code/models/model_pipeline.bin
+      - key: LOG_LEVEL
+        value: INFO
