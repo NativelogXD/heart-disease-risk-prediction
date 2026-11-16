@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+.env
+.env.*
+__pycache__
+*.py[cod]
+.ipynb_checkpoints
+.pytest_cache
+.ruff_cache
+notebook.ipynb
+data
+scripts
+*.md
+fly.toml
+render.yaml
