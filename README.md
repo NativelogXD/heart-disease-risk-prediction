@@ -203,7 +203,7 @@ All dependencies are pinned cryptographically in `uv.lock` for Python `3.13`.
 ### 1. Clone and Synchronize Virtual Environment
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/NativelogXD/heart-disease-risk-prediction.git
 cd heart-disease-risk-prediction
 
 # Install uv if not already available
